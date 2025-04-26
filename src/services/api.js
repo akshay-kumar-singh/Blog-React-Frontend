@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth";
+const API_URL = "https://blog-react-backend-pezp.onrender.com/api/auth"
+// const API_URL = "http://localhost:5000/api/auth";
 
 const api = axios.create({
   baseURL: API_URL,
